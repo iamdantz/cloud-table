@@ -1,0 +1,53 @@
+{
+  "category": "miscellaneous",
+  "items": [
+    {
+      "feature": "Customer Multichannel Comm.",
+      "aws": "Amazon Connect",
+      "azure": "Azure Communication Services",
+      "gcp": "Contact Center AI"
+    },
+    {
+      "feature": "End-user Communications",
+      "aws": "Amazon Pinpoint / SES",
+      "azure": "Azure Notification Hubs",
+      "gcp": "Firebase Cloud Messaging"
+    },
+    {
+      "feature": "Gaming",
+      "aws": "Amazon GameLift",
+      "azure": "Azure PlayFab",
+      "gcp": "Google Cloud for Games"
+    },
+    {
+      "feature": "Geolocation Services",
+      "aws": "Amazon Location Service",
+      "azure": "Azure Maps",
+      "gcp": "Google Maps Platform"
+    },
+    {
+      "feature": "Media Services",
+      "aws": "AWS Elemental",
+      "azure": "Azure AI Video Indexer",
+      "gcp": "Transcoder API / Video Stitcher"
+    },
+    {
+      "feature": "Robotics App Development",
+      "aws": "AWS IoT (RoboMaker deprecated)",
+      "azure": "Azure AI / IoT Operations",
+      "gcp": "Google Cloud Robot (Intrinsics)"
+    },
+    {
+      "feature": "Satellite Ground Stations",
+      "aws": "AWS Ground Station",
+      "azure": "Azure Orbital Ground Station",
+      "gcp": "N/A"
+    },
+    {
+      "feature": "Virtual Desktop",
+      "aws": "Amazon WorkSpaces",
+      "azure": "Azure Virtual Desktop",
+      "gcp": "Chrome Enterprise Premium"
+    }
+  ]
+}

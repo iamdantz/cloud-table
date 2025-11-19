@@ -1,0 +1,41 @@
+{
+  "category": "business-apps",
+  "items": [
+    {
+      "feature": "Collaboration Tool Suite",
+      "aws": "N/A",
+      "azure": "Microsoft 365",
+      "gcp": "Google Workspace"
+    },
+    {
+      "feature": "Document Sharing & Storage",
+      "aws": "Amazon WorkDocs",
+      "azure": "Microsoft Word",
+      "gcp": "Google Docs / Workspace Essentials"
+    },
+    {
+      "feature": "Email & Calendar",
+      "aws": "Amazon WorkMail",
+      "azure": "Microsoft Outlook",
+      "gcp": "Gmail"
+    },
+    {
+      "feature": "Low-code / No-code",
+      "aws": "Amazon QuickSight / Amplify",
+      "azure": "Microsoft Power Apps",
+      "gcp": "AppSheet"
+    },
+    {
+      "feature": "Video Calls & Chat",
+      "aws": "Amazon Chime",
+      "azure": "Microsoft Teams",
+      "gcp": "Google Meet"
+    },
+    {
+      "feature": "Voice Assistant",
+      "aws": "Amazon Alexa / Lex",
+      "azure": "Azure AI Speech",
+      "gcp": "Google Assistant"
+    }
+  ]
+}

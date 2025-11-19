@@ -1,0 +1,74 @@
+{
+  "category": "ai-ml",
+  "items": [
+    {
+      "feature": "AI Agents (Autonomous Workflows)",
+      "aws": "Amazon Bedrock Agents",
+      "azure": "Azure AI Agent Service",
+      "gcp": "Vertex AI Agents / Agent Builder"
+    },
+    {
+      "feature": "Generative AI Platforms",
+      "aws": "Amazon Bedrock",
+      "azure": "Azure AI Foundry",
+      "gcp": "Vertex AI",
+      "formerly": {
+        "azure": "Azure AI Studio"
+      }
+    },
+    {
+      "feature": "Natural Language Processing",
+      "aws": "Amazon Comprehend",
+      "azure": "Azure AI Language",
+      "gcp": "Natural Language API"
+    },
+    {
+      "feature": "Generative Video Models",
+      "aws": "Amazon Nova",
+      "azure": "Azure OpenAI Service (Sora Preview)",
+      "gcp": "Google Veo (via Vertex AI)"
+    },
+    {
+      "feature": "AI-powered Assistant",
+      "aws": "Amazon Q",
+      "azure": "Microsoft Copilot",
+      "gcp": "Gemini for Google Cloud"
+    },
+    {
+      "feature": "AI Containers",
+      "aws": "AWS Deep Learning Containers",
+      "azure": "GPU support on AKS",
+      "gcp": "Deep Learning Containers"
+    },
+    {
+      "feature": "Chatbot Builder",
+      "aws": "Amazon Lex",
+      "azure": "Azure AI Bot Service",
+      "gcp": "Dialogflow / Vertex AI Conversation"
+    },
+    {
+      "feature": "Inference Accelerator",
+      "aws": "AWS Inferentia / Trainium2",
+      "azure": "GPU support on AKS",
+      "gcp": "Cloud TPU / Trillium (TPU v6)"
+    },
+    {
+      "feature": "Machine Learning Chips",
+      "aws": "AWS Trainium / Inferentia",
+      "azure": "Azure Maia 100",
+      "gcp": "Cloud TPU / Trillium TPU"
+    },
+    {
+      "feature": "Managed ML Platform",
+      "aws": "Amazon SageMaker",
+      "azure": "Azure Machine Learning",
+      "gcp": "Vertex AI"
+    },
+    {
+      "feature": "Image Recognition",
+      "aws": "Amazon Rekognition",
+      "azure": "Azure AI Vision",
+      "gcp": "Vision AI"
+    }
+  ]
+}

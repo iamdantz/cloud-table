@@ -1,0 +1,41 @@
+{
+  "category": "analytics",
+  "items": [
+    {
+      "feature": "Data Warehousing",
+      "aws": "Amazon Redshift",
+      "azure": "Azure Synapse Analytics",
+      "gcp": "BigQuery"
+    },
+    {
+      "feature": "Big Data Processing",
+      "aws": "Amazon EMR",
+      "azure": "Azure HDInsight",
+      "gcp": "Dataproc"
+    },
+    {
+      "feature": "Real-time Data Streaming",
+      "aws": "Amazon Kinesis",
+      "azure": "Azure Stream Analytics",
+      "gcp": "Dataflow / Pub/Sub"
+    },
+    {
+      "feature": "Data Visualization (BI)",
+      "aws": "Amazon QuickSight",
+      "azure": "Microsoft Power BI",
+      "gcp": "Looker"
+    },
+    {
+      "feature": "Data Catalog / Governance",
+      "aws": "AWS Glue Data Catalog",
+      "azure": "Microsoft Purview",
+      "gcp": "Dataplex"
+    },
+    {
+      "feature": "Interactive Query",
+      "aws": "Amazon Athena",
+      "azure": "Azure Synapse Analytics",
+      "gcp": "BigQuery"
+    }
+  ]
+}

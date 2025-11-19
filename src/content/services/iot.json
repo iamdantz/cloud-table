@@ -1,0 +1,17 @@
+{
+  "category": "iot",
+  "items": [
+    {
+      "feature": "IoT Device Management",
+      "aws": "AWS IoT Core",
+      "azure": "Azure IoT Hub",
+      "gcp": "IoT Core (Retired/Partner Solutions)"
+    },
+    {
+      "feature": "IoT Edge",
+      "aws": "AWS IoT Greengrass",
+      "azure": "Azure IoT Edge",
+      "gcp": "Google Distributed Cloud Edge"
+    }
+  ]
+}

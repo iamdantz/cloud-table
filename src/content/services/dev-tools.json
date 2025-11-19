@@ -1,0 +1,29 @@
+{
+  "category": "dev-tools",
+  "items": [
+    {
+      "feature": "CI/CD Pipelines",
+      "aws": "AWS CodePipeline",
+      "azure": "Azure DevOps / GitHub Actions",
+      "gcp": "Cloud Build"
+    },
+    {
+      "feature": "Code Repositories",
+      "aws": "AWS CodeCommit",
+      "azure": "Azure Repos / GitHub",
+      "gcp": "Cloud Source Repositories"
+    },
+    {
+      "feature": "IDE / Cloud Editor",
+      "aws": "AWS Cloud9",
+      "azure": "VS Code / GitHub Codespaces",
+      "gcp": "Cloud Workstations / IDX"
+    },
+    {
+      "feature": "Infrastructure as Code",
+      "aws": "AWS CloudFormation",
+      "azure": "Azure Resource Manager (ARM) / Bicep",
+      "gcp": "Cloud Deployment Manager"
+    }
+  ]
+}

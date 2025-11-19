@@ -1,0 +1,23 @@
+{
+  "category": "migration",
+  "items": [
+    {
+      "feature": "Database Migration",
+      "aws": "AWS Database Migration Service",
+      "azure": "Azure Database Migration Service",
+      "gcp": "Database Migration Service"
+    },
+    {
+      "feature": "Server Migration",
+      "aws": "AWS Application Migration Service",
+      "azure": "Azure Migrate",
+      "gcp": "Migrate to Virtual Machines"
+    },
+    {
+      "feature": "Data Transfer Appliance",
+      "aws": "AWS Snowball",
+      "azure": "Azure Data Box",
+      "gcp": "Transfer Appliance"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+---
+interface Props {
+  services: any[]; // Using any[] for now as we flattened the structure manually in getAllServices
+}
+
+const { services } = Astro.props;
+---
+
+<div
+  class="overflow-x-auto bg-base-100 rounded-box shadow border border-base-200"
+>
+  <table class="table table-zebra w-full">
+    <!-- head -->
+    <thead class="bg-base-200">
+      <tr>
+        <th class="w-1/4 min-w-[200px] text-base-content">Use Case</th>
+        <th class="w-1/4 min-w-[200px] text-[#FF9900]">AWS</th>
+        <th class="w-1/4 min-w-[200px] text-[#0078D4]">Azure</th>
+        <th class="w-1/4 min-w-[200px] text-[#DB4437]">Google Cloud</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        services.map((service) => (
+          <tr
+            class="service-row hover:bg-base-200/50 transition-colors"
+            data-category={service.category}
+            data-search={`${service.feature} ${service.aws} ${service.azure} ${service.gcp}`.toLowerCase()}
+          >
+            <td class="align-top font-medium">{service.feature}</td>
+            <td class="align-top">
+              <div class="flex flex-col">
+                <span>{service.aws}</span>
+                {service.formerly?.aws && (
+                  <span class="text-xs text-base-content/60 mt-1 italic">
+                    Formerly {service.formerly.aws}
+                  </span>
+                )}
+              </div>
+            </td>
+            <td class="align-top">
+              <div class="flex flex-col">
+                <span>{service.azure}</span>
+                {service.formerly?.azure && (
+                  <span class="text-xs text-base-content/60 mt-1 italic">
+                    Formerly {service.formerly.azure}
+                  </span>
+                )}
+              </div>
+            </td>
+            <td class="align-top">
+              <div class="flex flex-col">
+                <span>{service.gcp}</span>
+                {service.formerly?.gcp && (
+                  <span class="text-xs text-base-content/60 mt-1 italic">
+                    Formerly {service.formerly.gcp}
+                  </span>
+                )}
+              </div>
+            </td>
+          </tr>
+        ))
+      }
+      <tr id="no-results" class="hidden">
+        <td colspan="4" class="text-center py-8 text-base-content/60">
+          No services found matching your search.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

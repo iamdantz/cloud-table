@@ -1,0 +1,29 @@
+{
+  "category": "containers",
+  "items": [
+    {
+      "feature": "Managed Kubernetes",
+      "aws": "Amazon EKS",
+      "azure": "Azure Kubernetes Service (AKS)",
+      "gcp": "Google Kubernetes Engine (GKE)"
+    },
+    {
+      "feature": "Container Registry",
+      "aws": "Amazon ECR",
+      "azure": "Azure Container Registry",
+      "gcp": "Artifact Registry"
+    },
+    {
+      "feature": "Serverless Containers",
+      "aws": "AWS Fargate / App Runner",
+      "azure": "Azure Container Apps",
+      "gcp": "Cloud Run"
+    },
+    {
+      "feature": "Container Migration",
+      "aws": "AWS App2Container",
+      "azure": "Azure Migrate",
+      "gcp": "Migrate to Containers"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "category": "management",
+  "items": [
+    {
+      "feature": "Monitoring & Observability",
+      "aws": "Amazon CloudWatch",
+      "azure": "Azure Monitor",
+      "gcp": "Cloud Operations (Stackdriver)"
+    },
+    {
+      "feature": "Infrastructure Configuration",
+      "aws": "AWS Config",
+      "azure": "Azure Automation",
+      "gcp": "Cloud Asset Inventory"
+    },
+    {
+      "feature": "Policy & Governance",
+      "aws": "AWS Organizations",
+      "azure": "Azure Policy",
+      "gcp": "Organization Policy Service"
+    },
+    {
+      "feature": "Cost Management",
+      "aws": "AWS Cost Explorer",
+      "azure": "Microsoft Cost Management",
+      "gcp": "Google Cloud Billing"
+    }
+  ]
+}

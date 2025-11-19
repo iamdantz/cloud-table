@@ -1,0 +1,50 @@
+{
+  "category": "security",
+  "items": [
+    {
+      "feature": "Identity & Access Management (IAM)",
+      "aws": "AWS IAM / IAM Identity Center",
+      "azure": "Microsoft Entra ID",
+      "gcp": "Cloud Identity / IAM",
+      "formerly": {
+        "azure": "Azure Active Directory"
+      }
+    },
+    {
+      "feature": "DDoS Protection",
+      "aws": "AWS Shield",
+      "azure": "Azure DDoS Protection",
+      "gcp": "Google Cloud Armor"
+    },
+    {
+      "feature": "Web Application Firewall",
+      "aws": "AWS WAF",
+      "azure": "Azure WAF",
+      "gcp": "Cloud Armor"
+    },
+    {
+      "feature": "Key Management",
+      "aws": "AWS KMS",
+      "azure": "Azure Key Vault",
+      "gcp": "Cloud Key Management"
+    },
+    {
+      "feature": "Security Posture Management",
+      "aws": "AWS Security Hub",
+      "azure": "Microsoft Defender for Cloud",
+      "gcp": "Security Command Center"
+    },
+    {
+      "feature": "Sovereign / Regulated Cloud",
+      "aws": "AWS European Sovereign Cloud",
+      "azure": "Microsoft Cloud for Sovereignty",
+      "gcp": "Google Distributed Cloud Hosted"
+    },
+    {
+      "feature": "Secrets Management",
+      "aws": "AWS Secrets Manager",
+      "azure": "Azure Key Vault",
+      "gcp": "Secret Manager"
+    }
+  ]
+}

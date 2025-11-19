@@ -1,0 +1,29 @@
+{
+  "category": "app-integration",
+  "items": [
+    {
+      "feature": "API Management",
+      "aws": "Amazon API Gateway",
+      "azure": "Azure API Management",
+      "gcp": "Apigee"
+    },
+    {
+      "feature": "Message Queues",
+      "aws": "Amazon SQS",
+      "azure": "Azure Service Bus",
+      "gcp": "Pub/Sub"
+    },
+    {
+      "feature": "Event Bus",
+      "aws": "Amazon EventBridge",
+      "azure": "Azure Event Grid",
+      "gcp": "Eventarc"
+    },
+    {
+      "feature": "Workflow Orchestration",
+      "aws": "AWS Step Functions",
+      "azure": "Azure Logic Apps",
+      "gcp": "Workflows / Cloud Composer"
+    }
+  ]
+}

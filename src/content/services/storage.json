@@ -1,0 +1,41 @@
+{
+  "category": "storage",
+  "items": [
+    {
+      "feature": "Object Storage",
+      "aws": "Amazon S3",
+      "azure": "Azure Blob Storage",
+      "gcp": "Cloud Storage"
+    },
+    {
+      "feature": "Block Storage",
+      "aws": "Amazon EBS",
+      "azure": "Azure Disk Storage",
+      "gcp": "Persistent Disk / Hyperdisk"
+    },
+    {
+      "feature": "File Storage",
+      "aws": "Amazon EFS / FSx",
+      "azure": "Azure Files / NetApp Files",
+      "gcp": "Filestore"
+    },
+    {
+      "feature": "Archival Storage",
+      "aws": "Amazon S3 Glacier",
+      "azure": "Azure Archive Storage",
+      "gcp": "Archive Storage"
+    },
+    {
+      "feature": "Backup",
+      "aws": "AWS Backup",
+      "azure": "Azure Backup",
+      "gcp": "Backup and DR Service"
+    },
+    {
+      "feature": "Data Transfer (Online)",
+      "aws": "AWS DataSync",
+      "azure": "Azure Storage Mover",
+      "gcp": "Storage Transfer Service"
+    }
+  ]
+}

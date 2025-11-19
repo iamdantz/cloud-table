@@ -1,0 +1,47 @@
+{
+  "category": "networking",
+  "items": [
+    {
+      "feature": "Virtual Network (VPC)",
+      "aws": "Amazon VPC",
+      "azure": "Azure Virtual Network (VNet)",
+      "gcp": "Virtual Private Cloud (VPC)"
+    },
+    {
+      "feature": "Content Delivery Network (CDN)",
+      "aws": "Amazon CloudFront",
+      "azure": "Azure Front Door",
+      "gcp": "Cloud CDN"
+    },
+    {
+      "feature": "Load Balancing",
+      "aws": "Elastic Load Balancing (ELB)",
+      "azure": "Azure Load Balancer / App Gateway",
+      "gcp": "Cloud Load Balancing"
+    },
+    {
+      "feature": "DNS Management",
+      "aws": "Amazon Route 53",
+      "azure": "Azure DNS",
+      "gcp": "Cloud DNS"
+    },
+    {
+      "feature": "Dedicated Network Connection",
+      "aws": "AWS Direct Connect",
+      "azure": "Azure ExpressRoute",
+      "gcp": "Cloud Interconnect"
+    },
+    {
+      "feature": "Private Connectivity",
+      "aws": "AWS PrivateLink",
+      "azure": "Azure Private Link",
+      "gcp": "Private Service Connect"
+    },
+    {
+      "feature": "5G / Edge Infrastructure",
+      "aws": "AWS Wavelength",
+      "azure": "Azure Private 5G Core",
+      "gcp": "Google Distributed Cloud Edge"
+    }
+  ]
+}

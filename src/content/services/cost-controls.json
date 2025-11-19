@@ -1,0 +1,23 @@
+{
+  "category": "cost-controls",
+  "items": [
+    {
+      "feature": "Cost Management & Billing",
+      "aws": "AWS Cost Explorer",
+      "azure": "Microsoft Cost Management",
+      "gcp": "Cloud Billing"
+    },
+    {
+      "feature": "Budgets & Alerts",
+      "aws": "AWS Budgets",
+      "azure": "Azure Cost Management",
+      "gcp": "Cloud Billing Budgets"
+    },
+    {
+      "feature": "Reserved Instances / Savings",
+      "aws": "Savings Plans / RIs",
+      "azure": "Azure Reservations / Savings Plans",
+      "gcp": "Committed Use Discounts"
+    }
+  ]
+}

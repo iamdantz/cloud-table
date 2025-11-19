@@ -1,0 +1,47 @@
+{
+  "category": "databases",
+  "items": [
+    {
+      "feature": "Relational RDBMS",
+      "aws": "Amazon RDS / Aurora",
+      "azure": "Azure SQL Database",
+      "gcp": "Cloud SQL / AlloyDB"
+    },
+    {
+      "feature": "NoSQL: Key-Value",
+      "aws": "Amazon DynamoDB",
+      "azure": "Azure Cosmos DB",
+      "gcp": "Bigtable / Firestore"
+    },
+    {
+      "feature": "NoSQL: Document",
+      "aws": "Amazon DocumentDB",
+      "azure": "Azure Cosmos DB",
+      "gcp": "Firestore"
+    },
+    {
+      "feature": "Vector Database / Search",
+      "aws": "OpenSearch Serverless (Vector Engine)",
+      "azure": "Azure AI Search",
+      "gcp": "Vertex AI Vector Search"
+    },
+    {
+      "feature": "In-Memory Data Store",
+      "aws": "Amazon ElastiCache",
+      "azure": "Azure Cache for Redis",
+      "gcp": "Memorystore"
+    },
+    {
+      "feature": "Graph Database",
+      "aws": "Amazon Neptune",
+      "azure": "Azure Cosmos DB (Gremlin)",
+      "gcp": "Spanner Graph / Neo4j"
+    },
+    {
+      "feature": "Time-Series Database",
+      "aws": "Amazon Timestream",
+      "azure": "Azure Data Explorer",
+      "gcp": "Bigtable"
+    }
+  ]
+}

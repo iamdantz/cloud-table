@@ -1,0 +1,59 @@
+{
+  "category": "compute",
+  "items": [
+    {
+      "feature": "ARM-based General Purpose Processors",
+      "aws": "AWS Graviton4",
+      "azure": "Azure Cobalt 100",
+      "gcp": "Google Axion"
+    },
+    {
+      "feature": "Virtual Machines (VMs)",
+      "aws": "Amazon EC2",
+      "azure": "Azure Virtual Machines",
+      "gcp": "Compute Engine"
+    },
+    {
+      "feature": "Serverless Functions",
+      "aws": "AWS Lambda",
+      "azure": "Azure Functions",
+      "gcp": "Cloud Run functions"
+    },
+    {
+      "feature": "Autoscaling",
+      "aws": "AWS Auto Scaling",
+      "azure": "Azure VM Scale Sets",
+      "gcp": "Compute Engine MIGs"
+    },
+    {
+      "feature": "Quantum Computing",
+      "aws": "Amazon Braket",
+      "azure": "Azure Quantum",
+      "gcp": "Google Quantum AI (Virtual Machine)"
+    },
+    {
+      "feature": "Batch Processing",
+      "aws": "AWS Batch",
+      "azure": "Azure Batch",
+      "gcp": "Batch"
+    },
+    {
+      "feature": "Extended Infrastructure (Hybrid)",
+      "aws": "AWS Outposts",
+      "azure": "Azure Stack",
+      "gcp": "Google Distributed Cloud"
+    },
+    {
+      "feature": "VMware Integration",
+      "aws": "VMware Cloud on AWS",
+      "azure": "Azure VMware Solution",
+      "gcp": "Google Cloud VMware Engine"
+    },
+    {
+      "feature": "PaaS",
+      "aws": "AWS Elastic Beanstalk",
+      "azure": "Azure App Service",
+      "gcp": "App Engine"
+    }
+  ]
+}

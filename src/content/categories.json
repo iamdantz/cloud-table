@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ai-ml",
+    "name": "AI & Machine Learning",
+    "icon": "lucide:cpu",
+    "description": "Artificial Intelligence and Machine Learning services for building smart applications."
+  },
+  {
+    "id": "compute",
+    "name": "Compute",
+    "icon": "lucide:server",
+    "description": "Scalable compute resources for running applications and workloads."
+  },
+  {
+    "id": "containers",
+    "name": "Containers",
+    "icon": "lucide:box",
+    "description": "Services for running and managing containerized applications."
+  },
+  {
+    "id": "storage",
+    "name": "Storage",
+    "icon": "lucide:database",
+    "description": "Durable, scalable, and secure storage solutions for any data type."
+  },
+  {
+    "id": "databases",
+    "name": "Databases",
+    "icon": "lucide:database",
+    "description": "Managed database services for relational, NoSQL, and in-memory data."
+  },
+  {
+    "id": "networking",
+    "name": "Networking & Content Delivery",
+    "icon": "lucide:globe",
+    "description": "Networking services to connect and secure your cloud infrastructure."
+  },
+  {
+    "id": "security",
+    "name": "Security",
+    "icon": "lucide:shield",
+    "description": "Security, identity, and compliance services to protect your data."
+  },
+  {
+    "id": "analytics",
+    "name": "Analytics",
+    "icon": "lucide:activity",
+    "description": "Services for analyzing data and gaining insights."
+  },
+  {
+    "id": "app-integration",
+    "name": "Application Integration",
+    "icon": "lucide:layers",
+    "description": "Services for integrating applications and automating workflows."
+  },
+  {
+    "id": "management",
+    "name": "Management & Governance",
+    "icon": "lucide:folder-cog",
+    "description": "Tools for monitoring, managing, and governing your cloud resources."
+  },
+  {
+    "id": "dev-tools",
+    "name": "Developer Tools",
+    "icon": "lucide:wrench",
+    "description": "Tools for building, deploying, and managing code."
+  },
+  {
+    "id": "business-apps",
+    "name": "Business Applications",
+    "icon": "lucide:briefcase",
+    "description": "Productivity and business applications for your organization."
+  },
+  {
+    "id": "iot",
+    "name": "Internet of Things (IoT)",
+    "icon": "lucide:smartphone",
+    "description": "Services for connecting and managing IoT devices."
+  },
+  {
+    "id": "migration",
+    "name": "Migration",
+    "icon": "lucide:globe",
+    "description": "Services for migrating data and applications to the cloud."
+  },
+  {
+    "id": "cost-controls",
+    "name": "Cost Controls",
+    "icon": "lucide:dollar-sign",
+    "description": "Tools for managing and optimizing cloud costs."
+  },
+  {
+    "id": "miscellaneous",
+    "name": "Miscellaneous",
+    "icon": "lucide:more-horizontal",
+    "description": "Other specialized services and tools."
+  }
+]

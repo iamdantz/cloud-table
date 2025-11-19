@@ -1,0 +1,48 @@
+---
+import { Icon } from "astro-icon/components";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  categories: CollectionEntry<"categories">[];
+}
+
+const { categories } = Astro.props;
+---
+
+<aside class="bg-base-200 text-base-content w-80 min-h-full flex flex-col">
+  <div class="p-6 border-b border-base-300 flex items-center gap-3">
+    <Icon name="lucide:cloud" class="h-6 w-6 text-primary" />
+    <span class="font-bold text-xl tracking-tight">Cloud Table</span>
+  </div>
+
+  <div class="p-4">
+    <div class="relative">
+      <Icon
+        name="lucide:search"
+        class="absolute left-3 top-3 h-4 w-4 text-base-content/50"
+      />
+      <input
+        type="text"
+        id="global-search"
+        placeholder="Search services..."
+        aria-label="Search services"
+        class="input input-bordered w-full pl-9 h-10 text-sm"
+      />
+    </div>
+  </div>
+
+  <nav class="flex-1 overflow-y-auto px-2 pb-4 space-y-1">
+    {
+      categories.map((cat) => (
+        <button
+          class="category-btn w-full flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-btn transition-colors text-base-content/70 hover:bg-base-300 hover:text-base-content text-left"
+          data-category={cat.id}
+          data-description={cat.data.description}
+        >
+          <Icon name={cat.data.icon} class="h-4 w-4" />
+          {cat.data.name}
+        </button>
+      ))
+    }
+  </nav>
+</aside>
