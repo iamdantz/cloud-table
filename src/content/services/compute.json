@@ -54,6 +54,18 @@
       "aws": "AWS Elastic Beanstalk",
       "azure": "Azure App Service",
       "gcp": "App Engine"
+    },
+    {
+      "feature": "Containerized Web Apps",
+      "aws": "AWS App Runner",
+      "azure": "Azure Container Apps",
+      "gcp": "Cloud Run"
+    },
+    {
+      "feature": "Serverless Containers",
+      "aws": "AWS Fargate",
+      "azure": "Azure Container Instances",
+      "gcp": "Cloud Run"
     }
   ]
 }

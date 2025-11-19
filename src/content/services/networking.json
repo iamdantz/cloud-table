@@ -42,6 +42,24 @@
       "aws": "AWS Wavelength",
       "azure": "Azure Private 5G Core",
       "gcp": "Google Distributed Cloud Edge"
+    },
+    {
+      "feature": "Network Hub / Transit",
+      "aws": "AWS Transit Gateway",
+      "azure": "Azure Virtual WAN",
+      "gcp": "Network Connectivity Center"
+    },
+    {
+      "feature": "VPN Connectivity",
+      "aws": "AWS Site-to-Site VPN",
+      "azure": "Azure VPN Gateway",
+      "gcp": "Cloud VPN"
+    },
+    {
+      "feature": "Global Traffic Management",
+      "aws": "AWS Global Accelerator",
+      "azure": "Azure Traffic Manager",
+      "gcp": "Cloud Load Balancing"
     }
   ]
 }

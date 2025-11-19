@@ -45,6 +45,36 @@
       "aws": "AWS Secrets Manager",
       "azure": "Azure Key Vault",
       "gcp": "Secret Manager"
+    },
+    {
+      "feature": "Threat Detection",
+      "aws": "Amazon GuardDuty",
+      "azure": "Microsoft Defender for Cloud",
+      "gcp": "Security Command Center"
+    },
+    {
+      "feature": "Vulnerability Management",
+      "aws": "Amazon Inspector",
+      "azure": "Microsoft Defender for Cloud",
+      "gcp": "Security Command Center"
+    },
+    {
+      "feature": "Data Privacy / Discovery",
+      "aws": "Amazon Macie",
+      "azure": "Microsoft Purview",
+      "gcp": "Sensitive Data Protection"
+    },
+    {
+      "feature": "Customer Identity (CIAM)",
+      "aws": "Amazon Cognito",
+      "azure": "Microsoft Entra External ID",
+      "gcp": "Identity Platform"
+    },
+    {
+      "feature": "Compliance Reports",
+      "aws": "AWS Artifact",
+      "azure": "Service Trust Portal",
+      "gcp": "Compliance Reports Manager"
     }
   ]
 }
